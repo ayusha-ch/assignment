@@ -6,4 +6,11 @@ node_js:
 cache: npm
 
 before_install:
+  - mkdir public
   - ls -la
+
+install:
+  - ls -la
+  - mkdir public
+  - ls -la
+  
